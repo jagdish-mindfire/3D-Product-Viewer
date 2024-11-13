@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+.app-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #213547;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.picker-container {
+  position: absolute;
+  top: 100px;
+  left: 70px;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2b3c4d;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: opacity 0.3s ease-in-out;
+}
+
+.picker-container.hidden {
+  display: none;
+}
+
+.color-picker {
+  margin-bottom: 12px;
+  border-radius: 8px;
+}
+
+.picker-title {
+  font-size: 1.2rem;
+  color: #e0e0e0;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.config-panel {
+  position: fixed;
+  right: 24px;
+  bottom: 18vh;
+  width: 350px;
+  padding: 20px;
+  background-color: #1b2a3a;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.config-header {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.config-values {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: center;
+  padding: 14px 0;
+}
+
+.config-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.config-item:hover {
+  opacity: 0.85;
+}
+
+.config-dot {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #999;
+}
+
+.config-item-active .config-dot {
+  border: 2px solid #ffffff;
+}
+
+.config-label {
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  color: #cccccc;
+  text-transform: capitalize;
+}
+
+.config-item-active .config-label {
+  color: #ffffff;
+}
