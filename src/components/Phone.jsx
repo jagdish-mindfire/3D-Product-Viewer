@@ -18,10 +18,10 @@ export const state = proxy({
     Plastic: '#ffffff',
     Glass_Camera_Logo: '#ffffff',
     Rim_Buttons: '#ffffff',
-    Screen_Rim: '#ffffff',
     Screen_Glass: '#ffffff',
-    Screw: '#ffffff',
+    Screen_Rim: '#ffffff',
     Screen_BG: '#ffffff',
+    Screw: '#ffffff',
   },
 });
 
