@@ -19,7 +19,6 @@ const ColorPalette = () => {
               state.items[snap.current] = color;
             }}
           />
-          <h1 className='picker-title'>{snap.current}</h1>
         </>
       )}
     </div>
