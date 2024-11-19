@@ -3,9 +3,9 @@
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   font-family: 'Poppins', sans-serif;
-  background-image: url('./textured-backgound.jpg');
+  background-image: url('./textures/textured-backgound.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
