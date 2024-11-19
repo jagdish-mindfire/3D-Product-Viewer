@@ -1,7 +1,7 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import ProductViewer from "./projects/3d-product-viewer/ProductViewer";
-import SolarSystem from "./projects/solar-system/SolarSystem";
-import LandingPage from "./pages/Landing";
+import LandingPage from "./pages/landing/";
+import Page from './pages/dynamic/Page';
+
 const App = () => {
   const router = createBrowserRouter([
     {
@@ -9,12 +9,8 @@ const App = () => {
         element: <LandingPage />,
     },
     {
-      path: "/3d-product-viewer",
-      element: <ProductViewer />,
-    },
-    {
-      path: "/solar-system",
-      element: <SolarSystem />,
+        path: "/:pageName",
+        element: <Page />,
     },
   ]);
 

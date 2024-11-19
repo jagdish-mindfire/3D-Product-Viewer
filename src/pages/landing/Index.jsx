@@ -1,24 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Landing.css';
+import {projectsData} from '../../data/projectsData';
 
-const projects = [
-  {
-    id: 1,
-    title: '3D Product Viewer',
-    description: 'An interactive 3D product viewer built with Three.js.',
-    imageUrl: '/images/product-viewer.png',
-    link: '/3d-product-viewer',
-  },
-  {
-    id: 2,
-    title: 'Solar System',
-    description: 'Explore solar systems in 3D space.',
-    imageUrl: '/images/solar-system.png',
-    link: '/solar-system',
-  },
-  // Add Projects here..
-];
 
 const LandingPage = () => {
   return (
@@ -43,7 +27,7 @@ const LandingPage = () => {
       <section className="projects" id="projects">
         <h2>Our Projects</h2>
         <div className="project-list">
-          {projects.map(project => (
+          {projectsData.map(project => (
             <div className="project-card" key={project.id}>
               <img src={project.imageUrl} alt={project.title} />
               <h3>{project.title}</h3>

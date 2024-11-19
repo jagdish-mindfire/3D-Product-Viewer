@@ -1,0 +1,88 @@
+/* NotFound.css */
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .not-found-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Header Styles */
+  .header {
+    background-color: #fff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .nav a:hover {
+    color: #007BFF;
+  }
+  
+  /* Not Found Content Styles */
+  .not-found-content {
+    flex: 1;
+    text-align: center;
+    padding: 100px 20px;
+  background: #5379a2;
+
+  }
+  
+  .not-found-content h1 {
+    font-size: 100px;
+    margin: 0;
+    color: #333;
+  }
+  
+  .not-found-content h2 {
+    font-size: 36px;
+    margin: 20px 0;
+    color: #555;
+  }
+  
+  .not-found-content p {
+    font-size: 18px;
+    color: #f9f4f4;
+    margin-bottom: 40px;
+  }
+  
+  .home-button {
+    background-color: #007BFF;
+    padding: 15px 30px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  .home-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #333;
+    color: #aaa;
+    text-align: center;
+    padding: 20px;
+  }
+  
