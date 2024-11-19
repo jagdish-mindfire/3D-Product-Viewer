@@ -5,7 +5,7 @@ body {
   padding: 0;
   /* overflow: hidden; */
   font-family: 'Poppins', sans-serif;
-  background-image: url('./textures/textured-backgound.jpg');
+  background-image: url('./3d-product-viewer/textured-backgound.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

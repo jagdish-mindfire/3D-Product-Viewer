@@ -2,22 +2,22 @@ import * as THREE from "three";
 
 const textureLoader = new THREE.TextureLoader();
 
-export const sunTexture = textureLoader.load("/static/textures/sun.jpg");
+export const sunTexture = textureLoader.load("/solar-system/textures/sun.jpg");
 sunTexture.colorSpace = THREE.SRGBColorSpace
 
-export const mercuryTexture = textureLoader.load("/static/textures/mercury.jpg");
+export const mercuryTexture = textureLoader.load("/solar-system/textures/mercury.jpg");
 mercuryTexture.colorSpace = THREE.SRGBColorSpace
 
-export const venusTexture = textureLoader.load("/static/textures/venus.jpg");
+export const venusTexture = textureLoader.load("/solar-system/textures/venus.jpg");
 venusTexture.colorSpace = THREE.SRGBColorSpace
 
-export const earthTexture = textureLoader.load("/static/textures/earth.jpg");
+export const earthTexture = textureLoader.load("/solar-system/textures/earth.jpg");
 earthTexture.colorSpace = THREE.SRGBColorSpace
 
-export const marsTexture = textureLoader.load("/static/textures/mars.jpg");
+export const marsTexture = textureLoader.load("/solar-system/textures/mars.jpg");
 marsTexture.colorSpace = THREE.SRGBColorSpace
 
-export const moonTexture = textureLoader.load("/static/textures/moon.jpg");
+export const moonTexture = textureLoader.load("/solar-system/textures/moon.jpg");
 moonTexture.colorSpace = THREE.SRGBColorSpace
 
 

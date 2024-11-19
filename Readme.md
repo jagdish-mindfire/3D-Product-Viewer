@@ -47,14 +47,19 @@ Go to the repository's GitHub page and click the Fork button.
 
 ```bash
 git clone https://github.com/<your-username>/3D-Product-Viewer.git
-cd mindfire-foss-threejs
+cd 3D-Product-Viewer
 git checkout -b feature/your-feature-name
 ```
 
 3. **Make your changes**
-- Add or update code related to Three.js demos.
-- Ensure your code follows the existing structure and style.
-- Run the app locally to confirm everything works as expected.
+- To include a new project, create a directory inside the src/projects/ directory and place all associated code within it. Ensure an index.jsx file that serves the project.
+- The URL for your project will correspond to /your-folder-name.
+- Create a folder in the /public directory with the same name as your project folder. Place all assets (e.g., public/your-folder-name/image.jpg) in this folder.
+- Update the src/data/projectsData.js file to include the title, description, and route for your project.
+- Ensure your code adheres to the existing structure and style.
+- Run the app locally to verify the functionality.
+
+
 
 4. **Create a Pull Request**
 - Go to the repository's GitHub page and click Pull Request.

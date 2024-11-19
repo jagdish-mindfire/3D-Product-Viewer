@@ -28,7 +28,7 @@ export const state = proxy({
 export default function Phone() {
   const ref = useRef();
   const snap = useSnapshot(state);
-  const { nodes, materials } = useGLTF('../../models/iphone_16_plus.glb');
+  const { nodes, materials } = useGLTF('/3d-product-viewer/models/iphone_16_plus.glb');
 
   useFrame((state) => {
     const t = state.clock.getElapsedTime();

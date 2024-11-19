@@ -17,7 +17,7 @@ const SolarSystem = () => {
     const ambientLight = new THREE.AmbientLight("white", 0.3);
     scene.add(ambientLight);
 
-    const pointLight = new THREE.PointLight("white", 100);
+    const pointLight = new THREE.PointLight("white", 50);
     scene.add(pointLight);
 
     // Sun

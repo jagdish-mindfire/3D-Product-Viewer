@@ -1,6 +1,6 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import LandingPage from "./pages/landing/";
-import Page from './pages/dynamic/Page';
+import LandingPage from "./pages/landing/Index.jsx";
+import Page from './pages/dynamic/Page.jsx';
 
 const App = () => {
   const router = createBrowserRouter([
