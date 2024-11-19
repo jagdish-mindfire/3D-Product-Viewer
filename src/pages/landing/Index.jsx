@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Landing.css';
-import {projectsData} from '../../data/projectsData.js';
+import projectsData from '../../data/projectsData.json';
 
 
 const LandingPage = () => {
