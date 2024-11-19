@@ -1,5 +1,6 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import ProductViewer from "./projects/3d-product-viewer/ProductViewer";
+import SolarSystem from "./projects/solar-system/SolarSystem";
 import LandingPage from "./pages/Landing";
 const App = () => {
   const router = createBrowserRouter([
@@ -10,6 +11,10 @@ const App = () => {
     {
       path: "/3d-product-viewer",
       element: <ProductViewer />,
+    },
+    {
+      path: "/solar-system",
+      element: <SolarSystem />,
     },
   ]);
 
