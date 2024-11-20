@@ -12,6 +12,20 @@
       "description": "Explore solar systems in 3D space.",
       "imageUrl": "/images/solar-system.png",
       "link": "/solar-system"
+    },
+    {
+      "id": 3,
+      "title": "Shoe Viewer",
+      "description": "An interactive 3D shoe viewer with colors.",
+      "imageUrl": "/images/shoe.png",
+      "link": "/shoe-viewer"
+    },
+    {
+      "id": 4,
+      "title": "3d Solar System",
+      "description": "An interactive 3D solar system.",
+      "imageUrl": "/images/solar.png",
+      "link": "/3d-solar-system"
     }
 ]
 
