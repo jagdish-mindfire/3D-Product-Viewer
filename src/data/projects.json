@@ -26,6 +26,13 @@
       "description": "An interactive 3D solar system.",
       "imageUrl": "/images/solar.png",
       "link": "/3d-solar-system"
+    },
+    {
+      "id": 5,
+      "title": "3D Interactive Drawer",
+      "description": "An interactive 3D Drawer.",
+      "imageUrl": "/images/drawer.png",
+      "link": "/3d-drawer"
     }
 ]
 
