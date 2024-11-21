@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import './Landing.css';
 import projectsData from '../../data/projects.json';
 
-
 const LandingPage = () => {
   return (
     <div className="landing-page">
@@ -12,7 +11,6 @@ const LandingPage = () => {
         <div className="logo">Mindfire FOSS</div>
         <nav className="nav">
           <a href="#projects">Projects</a>
-       
         </nav>
       </header>
 
@@ -28,12 +26,12 @@ const LandingPage = () => {
         <h2>Our Projects</h2>
         <div className="project-list">
           {projectsData.map(project => (
-            <div className="project-card" key={project.id}>
+            <Link to={project.link} className="project-card" key={project.id}>
               <img src={project.imageUrl} alt={project.title} />
               <h3>{project.title}</h3>
               <p>{project.description}</p>
-              <Link to={project.link} className="project-link">Learn More</Link>
-            </div>
+              <Link to={project.link} className="project-link">View demo</Link>
+            </Link>
           ))}
         </div>
       </section>
